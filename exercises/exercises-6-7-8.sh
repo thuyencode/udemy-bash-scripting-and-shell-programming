@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
 for FILE in "$@"; do
+
   if [ -z "$FILE" ]; then
     echo "Please provide a file name."
   elif [ ! -e "$FILE" ]; then
     echo "$FILE does not exist."
   else
+
     if [ -d "$FILE" ]; then
       echo "$FILE is a directory."
     elif [ -f "$FILE" ]; then
@@ -16,4 +18,5 @@ for FILE in "$@"; do
 
     ls -l "$FILE"
   fi
+
 done
