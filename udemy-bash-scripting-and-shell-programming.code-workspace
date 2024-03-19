@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {},
+  "extensions": {
+    "recommendations": [
+      "mads-hartmann.bash-ide-vscode",
+      "jeff-hykin.better-shellscript-syntax",
+      "foxundermoon.shell-format",
+      "timonwong.shellcheck"
+    ]
+  }
+}
