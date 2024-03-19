@@ -11,7 +11,8 @@
       "jeff-hykin.better-shellscript-syntax",
       "foxundermoon.shell-format",
       "timonwong.shellcheck",
-      "rpinski.shebang-snippets"
+      "rpinski.shebang-snippets",
+      "formulahendry.code-runner"
     ]
   }
 }
