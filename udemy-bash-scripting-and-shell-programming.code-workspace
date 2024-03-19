@@ -10,7 +10,8 @@
       "mads-hartmann.bash-ide-vscode",
       "jeff-hykin.better-shellscript-syntax",
       "foxundermoon.shell-format",
-      "timonwong.shellcheck"
+      "timonwong.shellcheck",
+      "rpinski.shebang-snippets"
     ]
   }
 }
