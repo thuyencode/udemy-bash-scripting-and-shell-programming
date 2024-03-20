@@ -5,7 +5,7 @@ file_count() {
 
   if [ ! -d "$DIR" ]; then
     echo "${DIR} is not a directory."
-    exit 1
+    return 1
   fi
 
   echo "${DIR}: $(find "$DIR" | wc -l)"
