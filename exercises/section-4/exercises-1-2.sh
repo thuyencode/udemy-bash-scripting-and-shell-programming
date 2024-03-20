@@ -8,13 +8,7 @@ file_count() {
     return 1
   fi
 
-  local COUNT=0
-
-  for _ in "$DIR"/*; do
-    ((COUNT += 1))
-  done
-
-  echo "${DIR}: ${COUNT} file(s)."
+  echo "${DIR}: $(find "$DIR" | wc --lines) file(s)."
 }
 
 file_count "$1"
