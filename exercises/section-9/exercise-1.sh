@@ -2,7 +2,7 @@
 
 LINE_NUMBER=1
 
-while read LINE; do
+while read -r LINE; do
   echo "${LINE_NUMBER}: ${LINE}"
 
   ((LINE_NUMBER++))
