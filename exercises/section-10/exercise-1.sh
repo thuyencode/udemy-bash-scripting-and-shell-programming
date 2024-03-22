@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -ex
+set -x
 
 ls /etc/mkinitcpio.d/
 
